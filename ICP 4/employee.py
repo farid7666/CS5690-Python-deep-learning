@@ -17,15 +17,16 @@ class employee:
 #returning family
     def get_family(self):
         return self.family
-
+#returning department
     def get_dept(self):
         return self.dept
-
+#returning salary
     def get_salary(self):
         return self.salary
 #function for averaging the salary
     def average_salary():
         print ("average salary is:", employee.salary_count/employee.employee_count)
+#function for employee_number
     def employee_number():
         print ("employee number is:", employee.employee_count)
         
@@ -37,7 +38,8 @@ class fulltime_employee(employee):
         self.time = time
     def get_job_des(self):
         print (self.time)
-  
+
+#Testbench
 a = employee("Bob", "A", 25000,"acc")
 b = employee("farid","S",30000,"eng")
 c = fulltime_employee("Ahmed","Z",50000,"eng","Full_time")
